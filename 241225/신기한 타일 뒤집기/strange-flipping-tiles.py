@@ -9,7 +9,7 @@ for i in range(n):
     if direction=='L':
         for j in range(now, now-x+1, -1):
             li[j]=1
-        now-=x+1
+        now-=x-1
         li[now]=1
     else:
         for j in range(now, now+x-1):
