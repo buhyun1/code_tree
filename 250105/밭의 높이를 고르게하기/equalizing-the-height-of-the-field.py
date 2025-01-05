@@ -5,8 +5,6 @@ arr = list(map(int, input().split()))
 
 min_cost = float('inf')
 
-arr.sort()
-
 for i in range(N-T+1):
     cur_sec = arr[i:i+T]
     cost = sum(max(0, abs(H-height)) for height in cur_sec )
