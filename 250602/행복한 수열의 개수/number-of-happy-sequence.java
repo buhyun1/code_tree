@@ -21,10 +21,11 @@ public class Main {
 }
         int happycount = 0;
         // M = 1이면 무조건 모든 행, 열이 행복
+        
         if (M == 1) {
             System.out.println(2 * N);
-            return;
-        }
+        }   return;
+        
 
         
         for (int i=0; i < N; i++){
