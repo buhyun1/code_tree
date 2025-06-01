@@ -16,7 +16,11 @@ public class Main {
                 matrix[i][j] = Integer.parseInt(tokens[j]);
             }
         }
-
+        if (M == 1) {
+        happycount += 2 * N;  // 모든 행과 열이 다 행복함
+        System.out.println(happycount);
+        return;
+}
         int happycount = 0;
 
         for (int i=0; i < N; i++){
