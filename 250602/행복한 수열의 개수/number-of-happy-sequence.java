@@ -24,8 +24,8 @@ public class Main {
         
         if (M == 1) {
             System.out.println(2 * N);
-        }   return;
-        
+            return;  // ✅ 여기서 main 함수 내부를 빠져나갑니다
+        }
 
         
         for (int i=0; i < N; i++){
