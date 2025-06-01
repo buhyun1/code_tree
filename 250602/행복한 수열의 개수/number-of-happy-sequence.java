@@ -22,11 +22,6 @@ public class Main {
         int happycount = 0;
         // M = 1이면 무조건 모든 행, 열이 행복
         
-        if (M == 1) {
-            System.out.println(2 * N);
-            return;  // ✅ 여기서 main 함수 내부를 빠져나갑니다
-        }
-
         
         for (int i=0; i < N; i++){
             int count = 1;
