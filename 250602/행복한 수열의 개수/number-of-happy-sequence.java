@@ -16,13 +16,17 @@ public class Main {
                 matrix[i][j] = Integer.parseInt(tokens[j]);
             }
         }
-        if (M == 1) {
-        happycount += 2 * N;  // 모든 행과 열이 다 행복함
-        System.out.println(happycount);
-        return;
+
+        
 }
         int happycount = 0;
+        // M = 1이면 무조건 모든 행, 열이 행복
+        if (M == 1) {
+            System.out.println(2 * N);
+            return;
+        }
 
+        
         for (int i=0; i < N; i++){
             int count = 1;
             boolean ishappy = false;
