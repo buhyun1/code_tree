@@ -19,7 +19,7 @@ public class Main {
         int maxgold = 0;
         for (int cx = 0; cx<n; cx++){
             for (int cy = 0; cy<n; cy++){
-                for (int k =0; k<2*(n-1); k++){
+                for (int k =0; k<=2*(n-1); k++){
                     int gold =0;
 
                      for (int x = 0; x < n; x++) {
